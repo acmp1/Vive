@@ -2,7 +2,7 @@
 	color:#efffcc;
 }
 #dvideo{
-    margin:2.8% auto;
+    margin:5% auto;
 }
 #referencias p{
     text-align: justify;
@@ -57,7 +57,7 @@ a:hover,a:active{
     margin:0 auto;
 }
 .mainheader nav ul li{
-    float:left;
+    float:right;
     display:inline;
 }
 .mainheader nav a:link, .mainheader nav a:visited{
@@ -104,6 +104,9 @@ a:hover,a:active{
 }
 @media only screen and (min-width : 150px) and (max-width : 780px) {
     
+    #dvideo{
+    	margin:2.8% auto;
+    }
     .body {
         width:90%;
         font-size:95%;
