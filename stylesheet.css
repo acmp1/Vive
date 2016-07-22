@@ -2,7 +2,7 @@
 	color:#efffcc;
 }
 #dvideo{
-    margin:5% auto;
+    margin:7% auto;
 }
 #referencias p{
     text-align: justify;
@@ -115,6 +115,7 @@ a:hover,a:active{
         width:100%;
     }
     .mainheader nav{
+    	position:static;
         height:120px;
     }
     .mainheader nav ul{
