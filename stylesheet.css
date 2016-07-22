@@ -117,7 +117,7 @@ a:hover,a:active{
     .mainheader nav{
     	position:static;
         height:120px;
-        width:90%;
+        width:100%;
     }
     .mainheader nav ul{
         padding-left:0;
