@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#bContacto").click(function(){
-        var x=$("#contacto").offset();
+        var x=$("#contacto").position();
         window.scrollTo(x.left, x.top);
     });
     $("#bPropiedades").click(function(){
