@@ -1,6 +1,11 @@
 .logo {
 	color:#efffcc;
 }
+.active{
+	background-color:#ccff33;
+    	text-shadow:none;
+    	color:#fff;
+}
 #dvideo{
     margin:7% auto;
 }
@@ -67,7 +72,7 @@ a:hover,a:active{
     height:20px;
     text-decoration:none;
 }
-.mainheader nav a:hover,.mainheader nav a:active,.mainheader nav .active a:link,.mainheader nav .active a:visited{
+.mainheader nav a:hover{
     background-color:#ccff33;
     text-shadow:none;
     color:#fff;
