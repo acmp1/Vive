@@ -1,13 +1,19 @@
 $(document).ready(function(){
     $("#bContacto").click(function(){
         $('#contacto').addClass('active');
+        $('#propiedades').remove('active');
+        $('#dvideo').remove('active');
     });
     $("#bPropiedades").click(function(){
         $('#propiedades').addClass('active');
+        $('#contacto').remove('active');
+        $('#dvideo').remove('active');
     });
     $("#bInicio").click(function(){
         $(window).scrollTop($('#dvideo').offset().top);
         $('#dvideo').addClass('active');
+        $('#propiedades').remove('active');
+        $('#contacto').remove('active');
     });
     });
 });
