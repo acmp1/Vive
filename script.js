@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("#bContacto").click(function(){
-        var x=$("#contacto").position();
-        window.scrollTo(x.left, x.top);
+        //var x=$("#contacto").position();
+        window.scrollTo("#contacto");
     });
     $("#bPropiedades").click(function(){
         /*var element       = $("#propiedades");
