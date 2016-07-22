@@ -2,9 +2,9 @@
 	color:#efffcc;
 }
 .active{
+	color:#fff;
 	background-color:#ccff33;
     	text-shadow:none;
-    	color:#fff;
 }
 #dvideo{
     margin:7% auto;
