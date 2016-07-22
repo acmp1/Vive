@@ -43,6 +43,8 @@ a:hover,a:active{
     margin-bottom:2%;
 } 
 .mainheader nav{
+    position:fixed;
+    width:70%;
     background-color:#d5ff80;
     height:40px;
     border-radius:5px;
@@ -54,7 +56,6 @@ a:hover,a:active{
     margin:0 auto;
 }
 .mainheader nav ul li{
-    position:fixed;
     float:left;
     display:inline;
 }
