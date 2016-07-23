@@ -72,7 +72,7 @@ a:hover,a:active{
     height:20px;
     text-decoration:none;
 }
-.mainheader nav a:hover{
+.mainheader nav a:hover,.mainheader nav a:active,.mainheader nav .active a:link,.mainheader nav .active a:visited{
     background-color:#ccff33;
     text-shadow:none;
     color:#fff;
