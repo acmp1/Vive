@@ -15,5 +15,4 @@ $(document).ready(function(){
         $('#bContacto').remove('active');
         $('#bPropiedades').remove('active');
     });
-    });
 });
