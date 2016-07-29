@@ -6,7 +6,7 @@
 	background-color:#ccff33;
     	text-shadow:none;
 }
-#dvideo{
+.dvideo{
     margin:7% auto;
 }
 #referencias p{
@@ -136,7 +136,7 @@ a:hover,a:active{
         height:20px;
         display:block;
     }
-    #video{
+    .video{
        width:241.875px;
        height:135.75px;
     }
