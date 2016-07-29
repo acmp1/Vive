@@ -1,18 +1,18 @@
 $(document).ready(function(){
     $("#bContacto").click(function(){
         $('#bContacto').addClass('active');
-        $('#bPropiedades').remove('active');
-        $('#bInicio').remove('active');
+        $('#bPropiedades').removeClass('active');
+        $('#bInicio').removeClass('active');
     });
     $("#bPropiedades").click(function(){
         $('#bPropiedades').addClass('active');
-        $('#bContacto').remove('active');
-        $('#bInicio').remove('active');
+        $('#bContacto').removeClass('active');
+        $('#bInicio').removeClass('active');
     });
     $("#bInicio").click(function(){
         $(window).scrollTop($('#dvideo').offset().top);
         $('#bInicio').addClass('active');
-        $('#bContacto').remove('active');
-        $('#bPropiedades').remove('active');
+        $('#bContacto').removeClass('active');
+        $('#bPropiedades').removeClass('active');
     });
 });
