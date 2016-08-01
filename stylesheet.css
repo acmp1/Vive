@@ -115,6 +115,9 @@ a:hover,a:active{
     #dvideo{
     	margin:2.8% auto;
     }
+    #firstvideo{
+	margin:auto;
+}
     .body {
         width:90%;
         font-size:95%;
